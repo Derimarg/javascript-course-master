@@ -1,3 +1,9 @@
+console.log(`
+
+======== ASSIGNMENT SCRIPTS ============
+
+`)
+
 // JavaScript Fundamentals - Part 1 
 
 
