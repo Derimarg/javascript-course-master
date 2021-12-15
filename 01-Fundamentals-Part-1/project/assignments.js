@@ -21,3 +21,24 @@ console.log("country: " + country);
 console.log("continent: " + continent);
 console.log("population: " + population);
 console.log("The country of " + country + " is part of the continent of " + continent + " and has a population of " + population);
+
+// ------- LECTURE: Data Types----------
+
+/* 1. Declare a variable called 'isIsland' and set its value according to your country. The variable should hold a Boolean value. Also declare a variable 'language', but don't assign it any value yet*/
+
+let isIsland = false;
+let language;
+
+/* 2. Log the types of 'isIsland', 'population', 'country' and 'language' to the console */
+
+console.log(typeof isIsland);
+console.log(typeof population);
+console.log(typeof country);
+console.log(typeof language);
+
+
+
+
+
+
+
