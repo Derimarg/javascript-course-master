@@ -1,9 +1,3 @@
-console.log(`
-
-======== LESSON SCRIPTS ============
-
-`)
-
 /*
 let js = "amazing";
 console.log(40 + 8 + 23 - 10);
