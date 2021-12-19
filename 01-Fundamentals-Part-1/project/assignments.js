@@ -79,3 +79,4 @@ which contains a string with this format: 'Portugal is in Europe, and its 11 mil
 
 const description1 = country + ' is in ' + continent +', and its ' + countryPopulation + ' million people speak ' + language + '.';
 console.log(description1);
+

@@ -67,7 +67,6 @@ console.log(`
 - They are all hoisted to the top of their scope. But while var variables are initialized with undefined, let and const variables are not initialized.
 
 - While var and let can be declared without being initialized, const must be initialized during declaration.`);
-*/
 
 // LESSON: Basic Operators
 
@@ -98,5 +97,20 @@ console.log(ageJonas >= 18);
 
 const isFullAge = ageSarah >= 18;
 
-console.log(now - 1995 > now - 2018);
+console.log(now - 1995 > now - 2018); 
+*/
 
+// -------- LECTURE: Basic Operators --------
+
+const now = 2037;
+const ageDeri = now -1991;
+const ageMicha = now - 2018;
+
+console.log(now - 1991 > now - 2018);
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10, x = 10
+console.log(x,y);
+
+const averageAge = (ageDeri + ageMicha) / 2;
+console.log(ageDeri, ageMicha, averageAge);
