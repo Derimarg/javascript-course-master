@@ -92,7 +92,7 @@ console.log(ageJonas >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1995 > now - 2018); 
-*/
+
 
 // -------- LECTURE: Basic Operators --------
 
@@ -108,3 +108,20 @@ console.log(x,y);
 
 const averageAge = (ageDeri + ageMicha) / 2;
 console.log(ageDeri, ageMicha, averageAge);
+*/
+
+// ------- LECTURE: Strings and template literals -------
+
+const firstName = 'Derimar';
+const job = 'Software Developer';
+const birthYear = 1995;
+const year = 2021;
+
+// String
+const derimars = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+console.log(derimars);
+
+// Template String
+const derimarsNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(derimarsNew);
+
