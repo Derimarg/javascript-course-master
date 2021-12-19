@@ -52,3 +52,30 @@ const continent2 = 'North America';
 
 // isIsland2 = true;  //Will display an error 
 
+// -------- LECTURE: Basic Operators --------
+
+/* 1. If your country split in half,and each half would contain half the population, then how many people would live in each half? */
+
+let countryPopulation = 4;
+const halfOfPopulation = countryPopulation / 2;
+console.log(halfOfPopulation); // 2
+
+/* 2. Increase the population of your country by 1 and log the result to the console */
+
+countryPopulation++;
+console.log(countryPopulation); // 5
+
+/* 3. Finland has a population of 6 million. Does your country have more people than Finland? */
+const finlandPopulation = 6;
+console.log(countryPopulation > finlandPopulation); // False
+
+/* 4. The average population of a country is 33 million people.Does your country
+have less people than the average country? */
+const averagePopulation = 33;
+console.log(countryPopulation < averagePopulation);
+
+/* 5. Based on the variables you created,create a new variable'description'
+which contains a string with this format: 'Portugal is in Europe, and its 11 million people speak portuguese' */
+
+const description1 = country + ' is in ' + continent +', and its ' + countryPopulation + ' million people speak ' + language + '.';
+console.log(description1);

@@ -55,7 +55,6 @@ year = 1991;
 console.log(year);
 
 console.log(typeof null); // null is not an object 
-*/
 
 // LESSON: let, const and var
 
@@ -68,3 +67,36 @@ console.log(`
 - They are all hoisted to the top of their scope. But while var variables are initialized with undefined, let and const variables are not initialized.
 
 - While var and let can be declared without being initialized, const must be initialized during declaration.`);
+*/
+
+// LESSON: Basic Operators
+
+// - Math Operators
+const now = 2021;
+const ageJonas = now - 1995;
+const ageSarah = now - 2018;
+console.log(ageJonas, ageSarah);
+
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2 
+
+const firstName = 'Derimar';
+const lastName = 'Gray';
+console.log(firstName + ' ' + lastName);
+
+// - Assignment Operators
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x++;  // x = x + 1
+x--; 
+x--;
+console.log(x);
+
+// - Comparison Operators
+console.log(ageJonas > ageSarah);
+console.log(ageJonas >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1995 > now - 2018);
+
