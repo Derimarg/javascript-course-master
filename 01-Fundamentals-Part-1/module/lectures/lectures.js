@@ -108,7 +108,7 @@ console.log(x,y);
 
 const averageAge = (ageDeri + ageMicha) / 2;
 console.log(ageDeri, ageMicha, averageAge);
-*/
+
 
 // ------- LECTURE: Strings and template literals -------
 
@@ -124,4 +124,24 @@ console.log(derimars);
 // Template String
 const derimarsNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
 console.log(derimarsNew);
+*/
 
+// ------- LECTURE: Taking Decisions: if/else Statements -------
+
+const age = 15;
+
+if (age >= 18) {
+  console.log("Sarah can start driving license 🚗");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. Waiting for ${yearsLeft} years :)`);
+}
+const birthYear = 1991;
+let century;
+
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);

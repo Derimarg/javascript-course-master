@@ -74,10 +74,62 @@ which contains a string with this format: 'Portugal is in Europe, and its 11 mil
 
 const description1 = country + ' is in ' + continent +', and its ' + countryPopulation + ' million people speak ' + language + '.';
 console.log(description1);
-*/
 
 // ------- LECTURE: Strings and template literals -------
 
 // 1. Recreate the 'description' variable from the last assignment,this time using the template literal syntax
 
 console.log(`${country}is in ${continent}, and it's ${countryPopulation} million people speak ${language}.`);
+*/
+
+// ------- LECTURE: Taking Decisions: if/else Statements -------
+
+// 1. If your country's population is greater that 33 million, log a string like this to the console: 'Portugal's population is above average'. Otherwise, log a string like 'Portugal's population is 22 million below average' (the 22 is the average of 33 minus the country's population)
+
+const countryName = "USA";
+let populationUSA = 4;
+
+if (populationUSA > 33) {
+  console.log(`${countryName}'s population is above average!`);
+} else {
+  console.log(
+    `${countryName}'s population is ${
+      33 - populationUSA
+    } million bellow average!`
+  );
+}
+
+// 2. After checking the result, change the population temporarily to 13 and then to 130. See the different results, and set the population back to original
+populationUSA = 13;
+if (populationUSA > 33) {
+  console.log(`${countryName}'s population is above average!`);
+} else {
+  console.log(
+    `${countryName}'s population is ${
+      33 - populationUSA
+    } million bellow average!`
+  );
+}
+
+populationUSA = 130;
+if (populationUSA > 33) {
+  console.log(`${countryName}'s population is above average!`);
+} else {
+  console.log(
+    `${countryName}'s population is ${
+      33 - populationUSA
+    } million bellow average!`
+  );
+}
+
+populationUSA = 4;
+
+if (populationUSA > 33) {
+  console.log(`${countryName}'s population is above average!`);
+} else {
+  console.log(
+    `${countryName}'s population is ${
+      33 - populationUSA
+    } million bellow average!`
+  );
+}
