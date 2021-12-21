@@ -80,7 +80,6 @@ console.log(description1);
 // 1. Recreate the 'description' variable from the last assignment,this time using the template literal syntax
 
 console.log(`${country}is in ${continent}, and it's ${countryPopulation} million people speak ${language}.`);
-*/
 
 // ------- LECTURE: Taking Decisions: if/else Statements -------
 
@@ -133,3 +132,22 @@ if (populationUSA > 33) {
     } million bellow average!`
   );
 }
+*/
+
+
+// ------- LECTURE:  Type Conversion and Coercion -------
+
+//1. Predict the result of these 5 operations without executing them: '9' - '5'; '19' - '13' + '17'; '19' - '13' + 17; '123' < 57;5 + 6 + '4' + 9 - 4 - 2;
+
+const a = '9' - '5'; // 4
+const b = '19' - '13' + '17'; // '617'
+const c = '19' - '13' + 17; // 23
+const d = '123' < 57; // false
+const e = 5 + 6 + '4' + 9 - 4 - 2; // 1143
+
+// 2. Execute the operations to check if you were right
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
