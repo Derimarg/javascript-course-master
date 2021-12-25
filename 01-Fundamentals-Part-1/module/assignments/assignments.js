@@ -132,7 +132,6 @@ if (populationUSA > 33) {
     } million bellow average!`
   );
 }
-*/
 
 
 // ------- LECTURE:  Type Conversion and Coercion -------
@@ -151,3 +150,5 @@ console.log(b);
 console.log(c);
 console.log(d);
 console.log(e);
+*/
+
