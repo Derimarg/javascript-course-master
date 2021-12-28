@@ -155,7 +155,7 @@ console.log(e);
 // ------- LECTURE: Equality Operators: == vs. === -------
 
 // 1. Declare a variable 'numNeighbours' based on a prompt input like this: prompt('How many neighbour countries does your country have?');
-const numNeighbours = prompt(
+let numNeighbours = prompt(
   "How many neighbours countries does your country have?"
 );
 
@@ -167,17 +167,43 @@ if (numNeighbours == 1) {
 } else if (numNeighbours > 1) {
   console.log("More than 1 border!");
 
+  // 5. Test the code with different values of 'numNeighbours', including 1 and 0.
+} else if (numNeighbours == 0) {
+  console.log("No borders!");
+} else if (numNeighbours > 0) {
+  console.log("Borders!");
+
   // 4. Use an else block to log 'No borders'(this block will be executed when 'numNeighbours' is 0 or any other value)
 } else {
-  console.log('No borders!');
-  
-  // 5. Test the code with different values of 'numNeighbours', including 1 and 0.
+  console.log("No borders!");
 }
 
-
-
 // 6. Change == to ===, and test the code again,with the same values of 'numNeighbours'. Notice what happens when there is exactly 1 border! Why is this happening?
+if (numNeighbours === 1) {
+  console.log("Only 1 border!");
+} else if (numNeighbours > 1) {
+  console.log("More than 1 border!");
+} else if (numNeighbours === 0) {
+  console.log("No borders!");
+} else if (numNeighbours > 0) {
+  console.log("Borders!");
+} else {
+  console.log("No borders!");
+}
 
 // 7. Finally, convert 'numNeighbours' to a number, and watch what happens now when you input 1
+numNeighbours = Number(
+  prompt("How many neighbours countries does your country have?")
+);
 
-// 8. Reflect on why we should use the === operator and type conversion in this situation
+if (numNeighbours === 1) {
+  console.log("Only 1 border!");
+} else if (numNeighbours > 1) {
+  console.log("More than 1 border!");
+} else if (numNeighbours === 0) {
+  console.log("No borders!");
+} else if (numNeighbours > 0) {
+  console.log("Borders!");
+} else {
+  console.log("No borders!");
+}
